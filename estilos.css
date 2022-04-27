@@ -65,7 +65,7 @@ h1 a:hover{
 
 /*CONTACTO*/
 .contacto{
-    background-image: url(img/Contacto\ 2.jpg);
+    background-image: linear-gradient(to left top, #ebebeb, #dcdce6, #cccde1, #b9bfdd, #a5b2d9, #a7b3db, #a8b5dc, #aab6de, #c2c7e6, #d8d9ee, #ececf6, #ffffff);
     background-size: cover;
 }
 .formulariocont{
@@ -154,7 +154,7 @@ main{
     width: 100%;
 }
 .seccion{
-    background-color: lightblue;
+    background-image: linear-gradient(to top, white, lightblue);
     height: 50px;
     width: 20%;
     margin: auto;
@@ -163,7 +163,7 @@ main{
     font-size: 30px;
 }
 .seccion2{
-    background-color: lightblue;
+    background-image: linear-gradient(to top, white, lightblue);
     height: 100px;
     width: 20%;
     margin: auto;
@@ -176,7 +176,7 @@ main{
 footer{
     height: 75px;
     padding: 20px;
-    background-color: lightblue;
+    background-image: linear-gradient(to left bottom, #dce2e3, #b7d3d8, #91c4cd, #66b5c3, #25a6b9);
     text-align: center;
     letter-spacing: 5px;
 }
@@ -266,6 +266,9 @@ footer a i{
     height: 220px;
     width: 330px;
 }
+.e1:hover, .e2:hover, .e3:hover, .e4:hover, .e5:hover, .e6:hover{
+    transform: scale(1.2);
+}
 
 
 /*NOTICIAS*/
@@ -294,6 +297,10 @@ footer a i{
     width: 700px;
     height: 400px;
 }
+.n1:hover, .n2:hover, .n3:hover, .n4:hover{
+    transform: scale(0.8);
+}
+
 .iframes{
     display: flex;
     gap: 20px;
